@@ -1,0 +1,147 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Program.bf", "src\\LinkIssue\\Color.bf", "src\\LinkIssue\\JSON\\Types\\JSONArray.bf", "src\\LinkIssue\\LinkIssue.bf", "src\\LinkIssue\\Bounds2.bf"]
+
+[MainWindow]
+X = 0
+Y = 0
+Width = 662
+Height = 426
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 358.0
+RequestedHeight = 208.0
+SizePriority = 208.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 930.0
+RequestedHeight = 208.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 112.5
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 150.0
+SizePriority = 150.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Color.bf"
+TabWidth = 84.0
+Type = "SourceViewPanel"
+FilePath = "src\\LinkIssue\\Color.bf"
+ProjectName = "BeefProject"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "JSONArray.bf"
+TabWidth = 115.0
+Type = "SourceViewPanel"
+FilePath = "src\\LinkIssue\\JSON\\Types\\JSONArray.bf"
+CursorPos = 166
+ProjectName = "BeefProject"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "LinkIssue.bf"
+TabWidth = 106.5
+Type = "SourceViewPanel"
+FilePath = "src\\LinkIssue\\LinkIssue.bf"
+CursorPos = 54
+ProjectName = "BeefProject"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Bounds2.bf"
+TabWidth = 104.5
+Type = "SourceViewPanel"
+FilePath = "src\\LinkIssue\\Bounds2.bf"
+ProjectName = "BeefProject"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program.bf"
+TabWidth = 103.5
+Type = "SourceViewPanel"
+FilePath = "src\\Program.bf"
+CursorPos = 1680
+VertPos = 2131.0
+ProjectName = "BeefProject"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 675.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 260.0
+SizePriority = 0.4648071
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 98.5
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 300.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Watch"
+TabWidth = 86.0
+Type = "WatchPanel"
+Columns = [{Width = 571.0}, {Width = 1210.0}, {Width = 200.0}]
+Items = [""]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 78.0
+Type = "AutoWatchPanel"
+Columns = [{Width = 588.0}, {Width = 679.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 260.0
+SizePriority = 0.5351929
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 118.5
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 95.5
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 104.0
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 111.0
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 91.5
+Type = "OutputPanel"
